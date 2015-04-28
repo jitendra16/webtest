@@ -1,0 +1,53 @@
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+background-color:#AFE2CC;
+}
+h1{font-size: 250%; font-family: courier; font-style: italic; font-weight: normal; text-align: left;}
+h2{font-size: 250%; font-family: courier; font-style: italic; font-weight: normal; text-align: left;}
+h3{font-size: 250%; font-family: courier; font-style: italic; font-weight: normal; text-align: left;}
+h4{font-size: 250%; font-family: courier; font-style: italic; font-weight: normal; text-align: left;}
+h5{font-size: 250%; font-family: courier; font-style: italic; font-weight: normal; text-align: left;}
+
+
+
+
+p{font-size: 150; font-family: arial; font-style: normal; font-weight: normal;text-align: left;}
+
+.menu{
+	position: relative;
+}
+
+.menu-logo{
+	position: absolute;
+	top:12px;
+	left:20px;
+	width: 168px;
+	height: 37px;
+	background: url("Wiredelta1.png") no-repeat;
+	background-size: 168px 37px ;
+}
+
+.menu-link{
+	text-align: center;
+	padding: 25px 0;
+	background: #484743;
+}
+
+.menu-link ul li{
+	font-size: 0;
+	display: inline-block;
+}
+
+.menu-link ul li a{
+	font-size: 16px;
+	text-decoration: none;
+	transition:all 0.3s ease;
+	padding:25px 10px;
+	color: #fff;
+}
+
+.menu-link ul li a:hover{
+	background:#fff;
+	color: #484743;
+}
